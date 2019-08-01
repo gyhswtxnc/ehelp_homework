@@ -48,7 +48,7 @@ public class ehelp_homework extends AppCompatActivity {
                     Toast.makeText(ehelp_homework.this,"社团身份被选中",Toast.LENGTH_SHORT).show();
                 }
                 if(manager.getId()==checkedId){
-                    Toast.makeText(ehelp_homework.this,"管理者身份被选中",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ehelp_homework.this,"管理身份被选中",Toast.LENGTH_SHORT).show();
                 }
             }
         });
