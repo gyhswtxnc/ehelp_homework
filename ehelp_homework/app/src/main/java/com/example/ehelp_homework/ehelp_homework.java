@@ -39,7 +39,7 @@ public class ehelp_homework extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if(teacher.getId()==checkedId){
-                    Toast.makeText(ehelp_homework.this,"教师身份被选中",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ehelp_homework.this,"老师身份被选中",Toast.LENGTH_SHORT).show();
                 }
                 if(student.getId()==checkedId){
                     Toast.makeText(ehelp_homework.this,"学生身份被选中",Toast.LENGTH_SHORT).show();
